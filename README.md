@@ -1,4 +1,4 @@
-# Joineazy – Assignment & Review Dashboard
+ Assignment & Review Dashboard
 
 A responsive assignment management dashboard built using React.js and Tailwind CSS. The application provides separate dashboards for students and administrators to manage assignments, track submissions, and monitor student progress.
 
