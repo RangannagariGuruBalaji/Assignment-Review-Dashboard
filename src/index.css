@@ -1,0 +1,87 @@
+
+@import "tailwindcss";
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4f6;
+}
+
+/* ==================================
+   JOINEAZY DARK MODE
+================================== */
+
+.dark-mode {
+  background-color: #111827;
+  color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Main backgrounds */
+.dark-mode .bg-gray-100 {
+  background-color: #111827 !important;
+}
+
+.dark-mode .bg-white {
+  background-color: #1f2937 !important;
+}
+
+.dark-mode .bg-gray-200 {
+  background-color: #374151 !important;
+}
+
+/* Text colors */
+.dark-mode .text-gray-800 {
+  color: #f9fafb !important;
+}
+
+.dark-mode .text-gray-700 {
+  color: #e5e7eb !important;
+}
+
+.dark-mode .text-gray-600 {
+  color: #d1d5db !important;
+}
+
+.dark-mode .text-gray-500 {
+  color: #9ca3af !important;
+}
+
+/* Borders */
+.dark-mode .border-gray-200,
+.dark-mode .border-gray-100,
+.dark-mode .border-gray-300 {
+  border-color: #374151 !important;
+}
+
+/* Form controls */
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+  background-color: #374151;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #9ca3af;
+}
+
+/* White buttons */
+.dark-mode button.bg-white {
+  background-color: #374151 !important;
+  color: #f9fafb !important;
+}
+
+/* Smooth theme transition */
+.dark-mode,
+.dark-mode .bg-white,
+.dark-mode .bg-gray-100 {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
